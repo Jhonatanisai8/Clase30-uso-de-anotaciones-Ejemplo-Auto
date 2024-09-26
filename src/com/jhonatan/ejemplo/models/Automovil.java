@@ -1,5 +1,9 @@
 package com.jhonatan.ejemplo.models;
 
+import com.jhonatan.ejemplo.anotaciones.Deportivo;
+
+// hacemos uso de la anotacion
+@Deportivo(velocidadMaxima = 320)
 public class Automovil {
     private String color;
     private int modelo;
